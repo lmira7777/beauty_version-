@@ -1,0 +1,34 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 999;
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+
+.container ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+
+
+
+.container ul a {
+    color:  #7B7B7B;
+    font-family: Jost;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    letter-spacing: -0.32px;
+}
+
